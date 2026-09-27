@@ -1,10 +1,11 @@
-# API de Gestión de Torneos
+<<<<<<< HEAD
+API de Gestión de Torneos
 
 Proyecto desarrollado para la asignatura Lenguaje de Programación III de la Corporación Universitaria Remington.
 
 La aplicación consiste en una API REST desarrollada con Spring Boot para gestionar torneos y equipos, utilizando persistencia de datos mediante JPA/Hibernate y MySQL.
 
-## Tecnologías utilizadas
+ Tecnologías utilizadas
 
 - Java
 - Spring Boot
@@ -18,7 +19,7 @@ La aplicación consiste en una API REST desarrollada con Spring Boot para gestio
 - Git y GitHub
 - RestClient para comunicación con servicios externos
 
-## Funcionalidades
+ Funcionalidades
 
 La API permite:
 
@@ -43,10 +44,14 @@ La aplicación utiliza Spring Data JPA e Hibernate para la persistencia de infor
 
 Las entidades principales son:
 
-- `Torneo`
-- `Equipo`
+`Torneo`
+ `Equipo`
 
 La relación entre ambas entidades se implementa mediante:
 
 ```java
 @OneToMany
+=======
+# api_torneos_mysql
+proyecto con persistencia de datos
+>>>>>>> 3c6d6f205b62b9c5ed61b7e27be4efbb8ec6d23b
